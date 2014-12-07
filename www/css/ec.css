@@ -25,6 +25,37 @@ body {
   line-height: 25px;
   letter-spacing: 1px;
 }
+.blue-section {
+  background-color: #0d83dd;
+  width: 100%;
+}
+.green-section {
+  background-color: #eaf7e8;
+  width: 100%;
+}
+.middle-section {
+  color: #0d83dd;
+  margin: 23px 0px;
+  padding: 55px 23px;
+  min-height: 446;
+  text-align: center;
+}
+.middle-section p {
+  color: #222;
+  font-family: helvetica;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.middle-section h1 {
+  font-family: helvetica;
+  font-size: 51px;
+  color: #0d83dd;
+  line-height: 60px;
+}
+.middle-section a {
+  color: #85c51f;
+}
 .table-listing .table-header {
   margin-bottom: 0px;
   background-color: #0d83dd;
