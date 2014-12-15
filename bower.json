@@ -1,0 +1,25 @@
+{
+  "name": "Project7",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Saminu/Project7",
+  "authors": [
+    "Sam <s.salisu@live.co.uk>"
+  ],
+  "description": "Comparison Site",
+  "main": "index.html",
+  "keywords": [
+    "Compare",
+    "Play",
+    "and",
+    "Win"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
