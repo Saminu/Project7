@@ -1,0 +1,16 @@
+[
+    {
+        "provider": "32red",
+        "bonus": "Join 32Red today and you will get £32 free with every £10 Deposited. This generous bonus gives you upto £160 free on your first deposit to enjoy with over 500 games",
+        "features":{"mobile":"false","instant":"true","downloadable":"true","vip":"true","live":"true","free":"true" },
+        "rating":{"stars":"5","votes":"350", "payout":"80"},
+        "link": "http://clkuk.tradedoubler.com/click?p(3686)a(2464280)g(230536)"
+    },
+    {
+        "provider": "dash",
+        "bonus": "Join 32Red today and you will get £32 free with every £10 Deposited. This generous bonus gives you upto £160 free on your first deposit to enjoy with over 500 games",
+        "features":{"mobile":"true","instant":"true","downloadable":"true","vip":"true","live":"true","free":"true" },
+        "rating":{"stars":"5","votes":"350", "payout":"80"},
+        "link": "http://clkuk.tradedoubler.com/click?p(3686)a(2464280)g(230536)"
+    }
+]

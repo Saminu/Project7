@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="en" ng-app="Application">
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -51,7 +51,7 @@
     </div>
 </div>
 
-<div class="table-listing">
+<div class="table-listing" ng-controller="casinoCtrl">
     <div class="row table-header hidden-for-small">
         <div class="large-3 medium-3 columns">
             <h4>Provider</h4>
@@ -69,62 +69,31 @@
             <h4>Get Bonus</h4>
         </div>
     </div>
-    <div class="row table-body">
-        <div class="large-3 medium-3 small-6 columns provider">
-            <img src="img/listings/provider.png">
+    <div class="row table-body" ng-repeat="list in casino">
+        <div class="large-3 medium-3 small-6 columns t-columns provider">
+            <img ng-src="img/listings/{{list.provider}}.png" alt="{{list.provider}}">
         </div>
-        <div class="hide-for-small-only large-2 medium-2 small-6 columns bonus">
-            <p>Join 32Red today and you will get <strong>£32</strong> free with every £10 Deposited. This generous bonus gives you upto £160 free on your first deposit to enjoy with over 500 games</p>
-            <!--<img src="img/listings/bonuses.png">-->
+        <div class="hide-for-small-only large-2 medium-2 small-6 columns t-columns bonus">
+            <p>{{list.bonus}}</p>
         </div>
-        <div class="hide-for-small-only large-2 medium-2 columns features">
-            <a class="hidden-for-small" href="http://clkuk.tradedoubler.com/click?p(3686)a(2464280)g(230536)" target="_blank"><img src="img/listings/featers.png"></a>
+        <div class="hide-for-small-only large-2 medium-2 columns t-columns features">
+            <a class="hidden-for-small" ng-href="{{list.link}}" target="_blank">
+                <img ng-show="list.features.instant = true" src="img/feature_instant_play.png" class="has-tip" title="Instant Play" data-tooltip="" data-width="100">
+                <img ng-show="list.features.live" src="img/feature_live_casino.png" class="has-tip" title="Live Casino" data-tooltip="" data-width="100">
+                <img ng-show="list.features.mobile" src="img/feature_mobile_compatible.png" class="has-tip" title="Mobile Compatible" data-tooltip="" data-width="100">
+                <img ng-show="list.features.downloadable" src="img/feature_software.png" class="has-tip" title="Downloadable Software" data-tooltip="" data-width="100">
+                <img ng-show="list.features.vip" src="img/feature_vip_program.png" class="has-tip" title="VIP Programmes" data-tooltip="" data-width="100">
+            </a>
         </div>
-        <div class="hide-for-small-only large-2 medium-2 columns rating">
-            <p><strong>Rate it</strong><br>xxx votes </p>
-            <p>Star Ratings</p>
+        <div class="hide-for-small-only large-2 medium-2 columns t-columns rating">
+            <p><strong>Rate it</strong><br>xxx {{list.rating.votes}} votes </p>
+            <p>Star Ratings {{list.rating.stars}}</p>
             <a>Review</a>
-            <a>Payout xxx%</a>
-            <!--<img class="hidden-for-small" src="img/listings/rating.png">-->
+            <a>Payout {{list.rating.payout}}%</a>
         </div>
-        <div class="large-3 medium-3 small-6 columns apply ">
+        <div class="large-3 medium-3 small-6 columns t-columns apply ">
             <!--<a href="http://clkuk.tradedoubler.com/click?p(3686)a(2464280)g(230536)" target="_blank"><img src="img/listings/apply-button.png"></a>-->
-            <a  href="http://clkuk.tradedoubler.com/click?p(3686)a(2464280)g(230536)" class="medium ec-green button">Play Now</a><br/>
-        </div>
-    </div>
-    <div class="row table-body">
-        <div class="large-3 medium-3 columns">
-            <img src="img/listings/dash.png">
-        </div>
-        <div class="large-2 medium-2 columns">
-            <img src="img/listings/bonuses-dash.png">
-        </div>
-        <div class="large-2 medium-2 columns">
-            <a href="http://clkuk.tradedoubler.com/click?p(51471)a(2464280)g(16553024)" target="_blank"><img src="img/listings/featers.png"></a>
-        </div>
-        <div class="large-2 medium-2 columns">
-            <img src="img/listings/rating-dash.png">
-        </div>
-        <div class="large-3 medium-3 columns">
-
-            <a href="http://clkuk.tradedoubler.com/click?p(51471)a(2464280)g(16553024)" target="_blank"><img src="img/listings/apply-button.png"></a>
-        </div>
-    </div>
-    <div class="row table-body">
-        <div class="large-3 medium-3 columns">
-            <img src="img/listings/provider-888.png">
-        </div>
-        <div class="large-2 medium-2 columns">
-            <a href="http://www.888casino.com/play/" target="_blank"><img src="img/listings/bonuses-888.png"></a>
-        </div>
-        <div class="large-2 medium-2 columns">
-            <img src="img/listings/featers.png">
-        </div>
-        <div class="large-2 medium-2 columns">
-            <img src="img/listings/rating-888.png">
-        </div>
-        <div class="large-3 medium-3 columns">
-            <a href="http://www.888casino.com/play/" target="_blank"><img src="img/listings/apply-button.png"></a>
+            <a  ng-href="{{list.link}}" class="medium ec-green button">Play Now<span class="arrow"> ></span></a>
         </div>
     </div>
 </div>
@@ -343,6 +312,8 @@
     </div>
 </div>
 
+<script src="libs/angularjs/angular.js"></script>
+<script src="js/app.js"></script>
 <script src="js/vendor/jquery.js"></script>
 <script src="js/foundation.min.js"></script>
 <script>

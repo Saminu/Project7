@@ -25,18 +25,18 @@
   border-right: 1px solid #ffffff;
   padding: 20px 0px;
 }
-.table-listing .table-body .columns {
+.table-listing .table-body .t-columns {
   border-bottom: 3px solid #0d83dd;
   border-right: 1px solid #0d83dd;
   border-top: 1px solid #0d83dd;
   margin-bottom: 20px;
   min-height: 174px;
 }
-.table-listing .table-body .columns:first-child {
+.table-listing .table-body .t-columns:first-child {
   border-left: 1px solid #0d83dd;
 }
 @media (max-width: 768px) {
-  .table-listing .table-body .columns {
+  .table-listing .table-body .t-columns {
     min-height: 140px;
   }
 }
@@ -50,11 +50,20 @@
     padding: 20px 20px;
   }
 }
+.table-listing .table-body .apply .button:hover .arrow {
+  margin-left: 2px;
+}
+.table-listing .table-body .provider img {
+  max-height: 80px;
+}
 .table-listing .table-body .features,
 .table-listing .table-body .bonus,
 .table-listing .table-body .rating {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.table-listing .table-body .features img {
+  margin: 5px 3px;
 }
 .table-listing .table-body .rating {
   text-align: center;
