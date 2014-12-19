@@ -12,5 +12,58 @@
         "features":{"mobile":"true","instant":"true","downloadable":"true","vip":"true","live":"true","free":"true" },
         "rating":{"stars":"5","votes":"350", "payout":"80"},
         "link": "http://clkuk.tradedoubler.com/click?p(3686)a(2464280)g(230536)"
+    },
+    {
+        "provider": "Betfair Casino",
+        "bonus": "200% up to £300",      "features":{"mobile":"true","instant":"true","downloadable":"true","vip":"true","live":"true","free":"true" },
+        "rating":{"stars":"5","votes":"350", "payout":"80"},
+        "link": "http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=336761&merchantID=6421&programmeID=17790&mediaID=0&tracking=&url="
+    },
+    {
+        "provider": "Betfair Casino",
+        "bonus": "200% up to £300",      "features":{"mobile":"true","instant":"true","downloadable":"true","vip":"true","live":"true","free":"true" },
+        "rating":{"stars":"5","votes":"350", "payout":"80"},
+        "link": "http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=336761&merchantID=6421&programmeID=17790&mediaID=0&tracking=&url="
+    },
+
+    {
+        "provider": "Betway Vegas",
+        "bonus": "Welcome bonus up to £1000 free",      "features":{"mobile":"true","instant":"true","downloadable":"true","vip":"true","live":"true","free":"true" },
+        "rating":{"stars":"5","votes":"350", "payout":"80"},
+        "link": "http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=336761&merchantID=6529&programmeID=18551&mediaID=0&tracking=&url="
+    },
+
+    {
+        "provider": "Eurogrand Casino",
+        "bonus": "Join now and get up to £1000 welcome bonus",      "features":{"mobile":"true","instant":"true","downloadable":"true","vip":"true","live":"true","free":"true" },
+        "rating":{"stars":"5","votes":"350", "payout":"80"},
+        "link": "http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=336761&merchantID=3529&programmeID=8959&mediaID=0&tracking=&url="
+    },
+
+    {
+        "provider": "Lucky 247",
+        "bonus": "50 free spins and 500 free welcome bonus",      "features":{"mobile":"true","instant":"true","downloadable":"true","vip":"true","live":"true","free":"true" },
+        "rating":{"stars":"5","votes":"350", "payout":"80"},
+        "link": "http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=336761&merchantID=6491&programmeID=18252&mediaID=0&tracking=&url="
+    },
+
+    {
+        "provider": "NetBet Casino",
+        "bonus": "Upto £250 bonus, no deposit required. With promo code:NETBET",      "features":{"mobile":"true","instant":"true","downloadable":"true","vip":"true","live":"true","free":"true" },
+        "rating":{"stars":"5","votes":"350", "payout":"80"},
+        "link": "http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=336761&merchantID=6177&programmeID=17050&mediaID=0&tracking=&url="
+    },
+    {
+        "provider": "Titan Bet",
+        "bonus": "Up to £400 welcome bonus",      "features":{"mobile":"true","instant":"true","downloadable":"true","vip":"true","live":"true","free":"true" },
+        "rating":{"stars":"5","votes":"350", "payout":"80"},
+        "link": "http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=336761&merchantID=6066&programmeID=18453&mediaID=0&tracking=&url="
+    },
+    {
+        "provider": "William Hill Vegas",
+        "bonus": "100% cashback bonus",      "features":{"mobile":"true","instant":"true","downloadable":"true","vip":"true","live":"true","free":"true" },
+        "rating":{"stars":"5","votes":"350", "payout":"80"},
+        "link": "http://scripts.affiliatefuture.com/AFClick.asp?affiliateID=336761&merchantID=5944&programmeID=16222&mediaID=0&tracking=&url="
     }
+
 ]
